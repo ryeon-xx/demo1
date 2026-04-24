@@ -30,4 +30,8 @@ public class Demo1Application {
         return "Application is running";
     }
 
+    public String getB() {
+        return "B";
+    }
+
 }

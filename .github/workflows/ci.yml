@@ -1,0 +1,13 @@
+name: Professional CI
+on:
+#  main에 PR이 날라갈때 동작.
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello
+#        echo는 터미널에 있는 명령어
+#        echo는 똑같이 출력,,?
+        run: echo "Hello, CI!"
